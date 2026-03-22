@@ -1,16 +1,37 @@
-# Basic Info from your CV [cite: 1, 7]
+---
+# Display name
 title: Hrithik Barman
-role: "M.Sc. Physics Student" 
-avatar_filename: avatar.jpg
 
-# Interests from your CV [cite: 9]
+# Full name (for SEO)
+first_name: Hrithik
+last_name: Barman
+
+# Status (short description) - Quotes prevent the M.Sc. error
+role: "M.Sc. Physics Student"
+
+# Organizations/Affiliations
+organizations:
+  - name: IIT Bombay
+    url: 'https://www.iitb.ac.in/'
+
+# Social network links
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:hrithik.udb@gmail.com'
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/Hrithikbarmangc
+
+# Your Physics Interests from CV
 interests:
-  - Active matter physics
-  - Bio physics
-  - Soft matter physics
-  - Stochastic processes
+  - Active Matter Physics
+  - Bio Physics
+  - Soft Matter Physics
+  - Stochastic Processes
+  - Pattern Formation in Biology
 
-# Education from your CV [cite: 4]
+# Your Educational History from CV
 education:
   courses:
     - course: M.Sc. in Physics
@@ -19,3 +40,5 @@ education:
     - course: B.Sc. in Physics
       institution: Assam University
       year: 2022
+---
+
